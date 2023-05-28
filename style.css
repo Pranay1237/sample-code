@@ -1,3 +1,7 @@
+#pre {
+    color: orange;
+}
+
 .upper {
     background: linear-gradient(-90deg, #222222 15%, #373737 70%, #3c4859 94%);
     padding-left: 170px;
@@ -64,6 +68,7 @@
     width: 100%;
     height: 30%;
     display: flex;
+    border-top-left-radius: 5px;
 }
 
 .bottom {
@@ -73,6 +78,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom-left-radius: 5px;
 }
 
 .container {
@@ -196,8 +202,161 @@
 }
 
 .graph {
-    height: 100%;
+    height: 99%;
     width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid lightgray;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.graph-inner {
+    width: 80%;
+    height: 90%;
+}
+
+.graph-top {
+    width: 100%;
+    height: 40%;
+}
+
+.topdec {
+    width: 100%;
+    height: 15%;
+    background-color: rgb(213, 228, 225);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.circular {
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background-color: rgb(155, 239, 107);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sector {
+    height: 5%;
+    width: 100%;
+    border-radius: 50%;
+    border: 30px solid rgb(96, 242, 210);
+    border-bottom-color: transparent;
+    transform: rotate(220deg);
+}
+
+.bottomdec {
+    width: 100%;
+    height: 15%;
+    background-color: rgb(214, 228, 213);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.graph-middle {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.line-outer {
+    width: 100%;
+    height: 90%;
+    position: relative;
+    top: 7px;
+}
+
+.line {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 10px;
+}
+
+.line1 {
+    height: 40%;
+    width: 85%;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.line2 {
+    height: 40%;
+    width: 50%;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.line3 {
+    height: 40%;
+    width: 65%;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.line4 {
+    height: 40%;
+    width: 30%;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.graph-bottom {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.innerbox {
+    width: 100%;
+    height: 80%;
+}
+
+.innerline {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 17px;
+}
+
+.inline1 {
+    height: 50%;
+    width: 70%;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.inline2 {
+    height: 30%;
+    width: 60%;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.inline3 {
+    height: 40%;
+    width: 30%;
+    background-color: lightgray;
+    border-radius: 10px;
 }
 
 .header-right {
