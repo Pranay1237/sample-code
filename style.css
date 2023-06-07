@@ -1,12 +1,12 @@
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 601px) {
     .ipad {
         background-color: white;
         position: absolute;
-        bottom: 240px;
-        left: 250px;
-        height: 300px;
-        width: 400px;
-        border-radius: 30px;
+        bottom: 33vh;
+        left: 15vw;
+        height: 40vh;
+        width: 27vw;
+        border-radius: 10%;
         transform: rotate(-9deg);
         border: 1px solid lightgray;
     }
@@ -15,8 +15,8 @@
         height: 90%;
         width: 85%;
         position: absolute;
-        left: 29px;
-        top: 15px;
+        left: 2vw;
+        top: 2vh;
         display: flex;
     }
 
@@ -45,28 +45,28 @@
         background: linear-gradient(#96d1f9, #00cded);
         width: 75%;
         height: 70%;
-        border-radius: 10px;
+        border-radius: 20%;
     }
 
     .green {
         background: linear-gradient(#9beb89, #42cf0e);
         width: 75%;
         height: 70%;
-        border-radius: 10px;
+        border-radius: 20%;
     }
 
     .yellow {
         background: linear-gradient(#ebe889, #cfc20e);
         width: 75%;
         height: 70%;
-        border-radius: 10px;
+        border-radius: 20%;
     }
 
     .red {
         background: linear-gradient(#eb9389, #cf150e);
         width: 75%;
         height: 70%;
-        border-radius: 10px;
+        border-radius: 20%;
     }
 
     .bottom {
@@ -215,7 +215,7 @@
         height: 5%;
         width: 100%;
         border-radius: 50%;
-        border: 30px solid rgb(96, 242, 210);
+        border: 2vw solid rgb(96, 242, 210);
         border-bottom-color: transparent;
         transform: rotate(220deg);
     }
@@ -239,7 +239,7 @@
         width: 100%;
         height: 90%;
         position: relative;
-        top: 7px;
+        top: 20%;
     }
 
     .line {
@@ -248,7 +248,7 @@
         display: flex;
         align-items: center;
         position: relative;
-        top: 10px;
+        top: 20%;
     }
 
     .line1 {
@@ -297,7 +297,7 @@
         display: flex;
         align-items: center;
         position: relative;
-        top: 17px;
+        top: 40%;
     }
     
     .inline1 {
@@ -320,28 +320,28 @@
         background-color: lightgray;
         border-radius: 10px;
     }
+
+    .shard {
+        width: 17vw;
+        height: 30vh;
+        background: #383d44;
+        position: absolute;
+        bottom: 70vh;
+        transform: skewY(12deg);
+        z-index: -1;
+    }
 }
 
 #pre {
     color: orange;
 }
 
-.shard {
-    width: 250px;
-    height: 200px;
-    background: #383d44;
-    position: absolute;
-    bottom: 520px;
-    transform: skewY(12deg);
-    z-index: -1;
-}
-
 .upper {
     background-color: transparent;
-    padding-left: 170px;
-    padding-right: 200px;
-    padding-top: 10px;
-    height: 500px;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    padding-top: 2vh;
+    height: 70vh;
     overflow: auto;
 }
 
@@ -387,8 +387,8 @@
 }
 
 .logo {
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
 }
 
 .lt {
@@ -400,19 +400,19 @@
 .account {
     background-color: rgb(6, 154, 203);
     color: white;
-    height: 40px;
-    width: 150px;
+    min-height: 6vh;
+    min-width: 150px;
     border-radius: 40px;
     font-size: 15px;
     cursor: pointer;
 }
 
 .cross {
-    width: 1520px;
-    height: 700px;
+    width: 99vw;
+    height: 95vh;
     background: linear-gradient(-90deg, #222222 15%, #373737 70%, #3c4859 94%);
     position: absolute;
-    bottom: 203px;
+    bottom: 30vh;
     z-index: -1;
     transform: skewY(12deg);
 }
